@@ -1,0 +1,21 @@
+# Local machine state, never committed
+LOCAL-NOTES.md
+profiles.json
+profiles.*.json
+!profiles.example.json
+
+# Shortcuts are machine specific
+*.lnk
+
+# Logs / temp
+*.log
+*.tmp
+
+# OS noise
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
