@@ -2,6 +2,10 @@
 
 # CodexNet
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![GitHub](https://img.shields.io/badge/github-MYaRain%2FCodexNet-181717?logo=github)](https://github.com/MYaRain/CodexNet)
+[![Version](https://img.shields.io/badge/version-0.1.5-informational)](https://github.com/MYaRain/CodexNet/releases)
+
 **把一个 Windows 应用钉死在一条代理上 —— 而且是真钉死。**
 
 不建 TUN 网卡 · 不改系统代理 · 不装内核驱动 · 不用安装 · 纯 PowerShell · MIT
@@ -47,6 +51,11 @@ CodexNet 走的是便宜但不撒谎的路线：**用它真正认的代理设置
 ---
 
 ## 三步上手
+
+```bash
+git clone https://github.com/MYaRain/CodexNet.git
+cd CodexNet
+```
 
 ```text
 1. 启动代理客户端（不确定端口就点界面里的「扫描」）
