@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- CodexNet mark: original geometry, generated for this project. MIT licensed. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-label="CodexNet">
+  <defs>
+    <linearGradient id="tile" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#E9F0FC"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1024" height="1024" rx="224" ry="224" fill="url(#tile)"/>
+  <rect x="2" y="2" width="1020" height="1020" rx="222" ry="222" fill="none"
+        stroke="#2F6FEB" stroke-opacity="0.16" stroke-width="3"/>
+
+  <circle cx="596" cy="512" r="196" fill="none" stroke="#2F6FEB" stroke-width="26"/>
+
+  <g stroke="#2F6FEB" stroke-opacity="0.27" stroke-width="24" stroke-linecap="round">
+    <line x1="126" y1="394" x2="390" y2="394"/>
+    <line x1="126" y1="630" x2="390" y2="630"/>
+  </g>
+
+  <line x1="126" y1="512" x2="596" y2="512" stroke="#2F6FEB" stroke-width="24" stroke-linecap="round"/>
+  <line x1="596" y1="512" x2="905" y2="512" stroke="#2DD4BF" stroke-width="24" stroke-linecap="round"/>
+  <polygon points="904,465 952,512 904,559" fill="#2DD4BF"/>
+</svg>

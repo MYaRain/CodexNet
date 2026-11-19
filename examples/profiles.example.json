@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "profiles": [
+    {
+      "id": "example01",
+      "name": "ChatGPT / Codex desktop",
+      "exe": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_<version>_x64__<hash>\\app\\ChatGPT.exe",
+      "proxy": "http://127.0.0.1:7890",
+      "extraArgs": "",
+      "chromium": true,
+      "killFirst": true,
+      "allowProxyDown": false,
+      "lockExes": [
+        "C:\\Program Files\\WindowsApps\\OpenAI.Codex_<version>_x64__<hash>\\app\\ChatGPT.exe",
+        "C:\\Program Files\\WindowsApps\\OpenAI.Codex_<version>_x64__<hash>\\app\\resources\\codex.exe"
+      ]
+    },
+    {
+      "id": "example02",
+      "name": "Socks-only CLI tool",
+      "exe": "C:\\Tools\\mytool\\mytool.exe",
+      "proxy": "socks5://127.0.0.1:7891",
+      "extraArgs": "--verbose",
+      "chromium": false,
+      "killFirst": false,
+      "allowProxyDown": false,
+      "lockExes": [
+        "C:\\Tools\\mytool\\mytool.exe"
+      ]
+    }
+  ]
+}
