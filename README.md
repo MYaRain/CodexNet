@@ -2,6 +2,10 @@
 
 # CodexNet
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![GitHub](https://img.shields.io/badge/github-MYaRain%2FCodexNet-181717?logo=github)](https://github.com/MYaRain/CodexNet)
+[![Version](https://img.shields.io/badge/version-0.1.5-informational)](https://github.com/MYaRain/CodexNet/releases)
+
 **Pin one Windows application to one specific proxy — and make that binding real.**
 
 No TUN adapter · No system-wide proxy change · No kernel driver · No admin install · Pure PowerShell · MIT
@@ -47,6 +51,11 @@ usable, the launcher refuses to start the app at all.
 ---
 
 ## Quick start
+
+```bash
+git clone https://github.com/MYaRain/CodexNet.git
+cd CodexNet
+```
 
 ```text
 1. Start your proxy client (press 扫描 in the app if you are unsure of the port).
