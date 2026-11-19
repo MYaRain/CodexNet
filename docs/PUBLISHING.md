@@ -51,7 +51,7 @@ git init -b main
 git add .
 git status                 # verify profiles.json / *.lnk are NOT staged
 git commit -m "Initial release: v0.1.0 - per-app proxy binding for Windows"
-git remote add origin https://github.com/<your-name>/codexnet.git
+git remote add origin https://github.com/MYaRain/codexnet.git
 git push -u origin main
 ```
 
